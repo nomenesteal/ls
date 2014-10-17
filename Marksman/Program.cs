@@ -33,55 +33,10 @@ namespace Marksman
 
             switch (championName)
             {
-                case "ashe":
-                    CClass = new Ashe();
-                    break;
-                case "caitlyn":
-                    CClass = new Caitlyn();
-                    break;
-                case "corki":
-                    CClass = new Corki();
-                    break;
-                case "draven":
-                    CClass = new Draven();
-                    break;
-                case "ezreal":
-                    CClass = new Ezreal();
-                    break;
-                case "graves":
-                    CClass = new Graves();
-                    break;
-                case "jinx":
-                    CClass = new Jinx();
-                    break;
-                case "kogmaw":
-                    CClass = new Kogmaw();
-                    break;
-                case "lucian":
-                    CClass = new Lucian();
-                    break;
-                case "quinn":
-                    CClass = new Quinn();
-                    break;
-                case "sivir":
-                    CClass = new Sivir();
-                    break;
-                case "teemo":
-                    CClass = new Teemo();
-                    break;
-                case "tristana":
-                    CClass = new Tristana();
-                    break;
-                case "twitch":
-                    CClass = new Twitch();
-                    break;
-                case "vayne":
+                 case "vayne":
                     CClass = new Vayne();
                     break;
-                case "varus":
-                    CClass = new Varus();
-                    break;
-            }
+                            }
 
 
             CClass.Id = ObjectManager.Player.BaseSkinName;
