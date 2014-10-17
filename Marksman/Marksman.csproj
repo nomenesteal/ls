@@ -73,31 +73,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ashe.cs" />
-    <Compile Include="Caitlyn.cs" />
     <Compile Include="Champion.cs" />
-    <Compile Include="Corki.cs" />
-    <Compile Include="Draven.cs" />
-    <Compile Include="Ezreal.cs" />
-    <Compile Include="Graves.cs" />
-    <Compile Include="Jinx.cs" />
-    <Compile Include="Kogmaw.cs" />
-    <Compile Include="Program.cs" />
+ <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Lucian.cs" />
-    <Compile Include="Quinn.cs" />
-    <Compile Include="Sivir.cs" />
-    <Compile Include="Teemo.cs" />
-    <Compile Include="Tristana.cs" />
-    <Compile Include="Twitch.cs" />
     <Compile Include="Utils.cs" />
-    <Compile Include="Varus.cs" />
-    <Compile Include="Vayne.cs" />
+  <Compile Include="Vayne.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
